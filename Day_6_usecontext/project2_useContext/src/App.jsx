@@ -1,3 +1,5 @@
+import Login from "./components/Login"
+import Portfolio from "./components/Portfolio"
 import UserContextProvider from "./context/UserContextProvider"
 
 function App() {
@@ -5,7 +7,8 @@ function App() {
 
   return (
     <UserContextProvider>
-      
+      <Portfolio/>
+      <Login/>
     </UserContextProvider>
   )
 }
