@@ -1,0 +1,7 @@
+We can create react app in two ways
+1 - npx create-react-app <app name>
+2 - npm create vite@latest <app name>
+
+In both type there is just one different 
+first one is official react app and also old type mainly it takes more time to install and also install more file which may be not nessary
+and second type is fast and just download necessary files
