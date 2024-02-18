@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Previoususe from './components/Previoususe'
 import Objects from './components/Objects'
+import Witharray from './components/Witharray'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Previoususe/>}></Route>
         <Route path='/object' element={<Objects/>}></Route>
-        <Route path='/array'></Route>
+        <Route path='/array' element={<Witharray/>}></Route>
       </Routes>
     </BrowserRouter>
   )
