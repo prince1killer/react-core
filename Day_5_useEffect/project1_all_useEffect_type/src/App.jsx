@@ -4,6 +4,7 @@ import Useeffects from "./components/Useeffects"
 import Blankdependency from "./components/Blankdependency"
 import Cleanupbtn from "./components/Cleanupbtn"
 import Dependency from "./components/Dependency"
+import Api from "./components/Api"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/blank" element={<Blankdependency/>}></Route>
         <Route path="/cleanup" element={<Cleanupbtn/>}></Route>
         <Route path="/dep" element={<Dependency/>}></Route>
+        <Route path="/api" element={<Api/>}></Route>
       </Routes>
     </BrowserRouter>
   )
